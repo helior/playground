@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>http://test.com/page-1/</loc>
+    <video:video>
+      <video:thumbnail_loc>http://test.com/tmbn1.jpg</video:thumbnail_loc>
+      <video:title>
+        <![CDATA[A video title]]>
+      </video:title>
+      <video:description>
+        <![CDATA[This is a video]]>
+      </video:description>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>http://test.com/tmbn2.jpg</video:thumbnail_loc>
+      <video:title>
+        <![CDATA[Another video title]]>
+      </video:title>
+      <video:description>
+        <![CDATA[This is another video]]>
+      </video:description>
+    </video:video>
+  </url>
+</urlset>
